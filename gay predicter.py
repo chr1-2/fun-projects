@@ -14,7 +14,7 @@ while True:
     print("\nAnalyzing...", end="", flush=True)
     
     # Creates a moving loading bar animation
-    for _ in range(60):
+    for _ in range(30):
         time.sleep(0.1)
         print("█", end="", flush=True)
     print(" Done!\n")
